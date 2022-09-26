@@ -48,13 +48,13 @@ p{
     font-family: 'Ubuntu', sans-serif;
     border-radius: 2rem;
 }
-.all-btns .start {
+.all-btns #start {
     background-color: #1FAA59;
 }
-.all-btns .stop {
+.all-btns #stop {
     background-color: crimson;
 }
-.all-btns .reset {
+.all-btns #reset {
     background-color: #0ec4c4;
 }
 
