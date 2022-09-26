@@ -24,8 +24,10 @@ resetBtn.addEventListener('click', ()=>{
     interVal = clearInterval(interVal);
     min = '00';
     sec = '00';
+    msec = '00';
     getMin.innerHTML = min;
     getSec.innerHTML =sec;
+    getMsec.innerHTML = msec;
 })
 
 function timerStart(){

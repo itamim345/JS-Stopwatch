@@ -25,13 +25,19 @@ img {
     width: 10rem;
     border-radius: 10px;
 }
-h2{
+.stopwatch h2{
     font-size: 2rem;
+    padding: 0.7rem;
+    border: 2px solid #5DA3FA;
+    border-radius: 1rem;
 }
 p{
     font-size: 3rem;
     margin-bottom: 1rem;
     margin-top: 0;
+}
+#watch {
+    color: crimson;
 }
 .all-btns {
     display: flex;
@@ -63,6 +69,10 @@ p{
     .all-btns {
        flex-direction: column; 
        gap: 1rem;
+    }
+    .all-btns button {
+        padding: 0.7rem 5rem;
+        font-size: 2rem;
     }
 }
 
